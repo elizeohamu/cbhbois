@@ -186,7 +186,7 @@ function cbhbois_customizer( $cbhbois_customize ){
     );
 
     //
-    // Utilities Sectopn
+    // Utilities Section
     //
     $cbhbois_customize->add_section(
         'sec_utilities', array(
@@ -238,7 +238,7 @@ function cbhbois_customizer( $cbhbois_customize ){
     );
     $cbhbois_customize->add_control(
         'set_utilities_text_2', array(
-            'label' => __('Events', 'cbhbois'),
+            'label' => __('Meets', 'cbhbois'),
             'description' => __('Type your text', 'cbhbois'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -253,7 +253,7 @@ function cbhbois_customizer( $cbhbois_customize ){
     );
     $cbhbois_customize->add_control(
         'set_utilities_link_2', array(
-            'label' => __('Link for Events', 'cbhbois'),
+            'label' => __('Link for Meets', 'cbhbois'),
             'description' => __('Type your link', 'cbhbois'),
             'section' => 'sec_utilities',
             'type' => 'text',
@@ -272,7 +272,7 @@ function cbhbois_customizer( $cbhbois_customize ){
     );
     $cbhbois_customize->add_control(
         'set_utilities_text_3', array(
-            'label' => __('Events', 'cbhbois'),
+            'label' => __('Documents', 'cbhbois'),
             'description' => __('Type your text', 'cbhbois'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -287,7 +287,7 @@ function cbhbois_customizer( $cbhbois_customize ){
     );
     $cbhbois_customize->add_control(
         'set_utilities_link_3', array(
-            'label' => __('Link for Events', 'cbhbois'),
+            'label' => __('Link for Documents', 'cbhbois'),
             'description' => __('Type your link', 'cbhbois'),
             'section' => 'sec_utilities',
             'type' => 'text',
